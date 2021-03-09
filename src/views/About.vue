@@ -1,5 +1,14 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <AddCount />
   </div>
 </template>
+<script>
+import AddCount from '@/components/AddCount.vue'
+export default {
+  name: 'About',
+  components: {
+    AddCount
+  }
+}
+</script>
